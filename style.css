@@ -349,6 +349,12 @@ header ul {
   border-radius: 20px;
   margin-top: 0;
   margin-bottom: 128px;
+  position: relative;
+}
+.fifthCorner{
+  position: absolute;
+  right: -15px;
+  top: -15px;
 }
 .fifthTop{
   display: flex;
@@ -434,17 +440,212 @@ header ul {
   width: 100%;
   height: 518px;
   display: flex;
+  margin-top: 0;
+  margin-bottom: 128px;
 }
 .sixthLeft{
-  width: 100%;
-  height: 100%;
-}
-.sixthLeft img{
-  size: cover;
-  width: 100%;
-  height: 100%;
+  background: url(./images/experience-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 518px;
 }
 .sixthRight{
-  width: 100%;
+  width: 50%;
   background: #F58A07;
+  padding: 128px;
+  padding-right: 300px;
+}
+.sixthRight h2{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.sixthRight a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 106.5%;
+  color: #F58A07;
+  background: white;
+  margin: 0;
+  border-radius: 31px;
+  padding: 18px 32px;
+}
+.seventh .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 128px;
+}
+.seventhRight{
+  background: url(./images/video-image.png);
+  width: 48%;
+  height: 501px;
+  border-radius: 20px;
+}
+.seventhRight .seventhRightVideo{
+  height: 100%;
+  width: 32%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+.seventhRight .seventhRightBg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 51px;
+  width: 51px;
+  background: white;
+  border-radius: 50%;
+}
+.seventhRight img{
+  width: 17px;
+  height: 17px;
+}
+.seventhRight p{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 101.8%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.seventhLeft{
+  width: 48%;
+}
+.seventhLeft h2{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+  color: #0d1317;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.seventhLeft p{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #5B5B5B;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.seventhLeftBottom{
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.seventhLeftBottom h2{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 171%;
+  color: #063255;
+  margin: 0;
+}
+.seventhLeftBottom p{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 171%;
+  color: #F58A07;
+  margin: 0;
+}
+.seventhLeftBottom img{
+  height: 80px;
+  width: 80px;
+}
+.eight{
+  background: #DCEAF5;
+  padding: 96px 0;
+}
+.eight h1{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+  color: #0d1317;
+  margin-top: 0;
+  margin-bottom: 64px;
+}
+.eightBottom{
+  display: flex;
+  justify-content: space-between;
+}
+.eightBottom .eightSection{
+  background: white;
+  width: 31%;
+  border-radius: 20px;
+}
+.eightBottom img{
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  margin: 0;
+}
+.eightBottom .eightSection div{
+  padding: 32px;
+  width: 100%;
+}
+.eightBottom h2{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+  color: #0d1317;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.eightBottom p{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #5B5B5B;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.eightBottom a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 106.5%;
+  color: #F58A07;
+  margin: 0;
+}
+.eightBottom a::after{
+  content: "\2192";
+  color: #F58A07;
+  margin-left: 8px;
+  font-size: 24px;
+  font-weight: 500;
+}
+footer{
+  background: #063255;
+  color: white;
+  padding: 80px 0;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+footer .container{
+  display: flex;
+  justify-content: space-between;
+}
+footer .container div{
+  width: 20%;
+}
+.secondRow a{
+  display: block;
+}
+.fourthRow input{
+  display: block;
 }
