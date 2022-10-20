@@ -9,38 +9,31 @@ header h2 {
   font-weight: 700;
   letter-spacing: -0.03em;
 }
-
 header .container nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 55%;
 }
-
 header ul li a {
   text-decoration: none;
   color: #394149;
-  font-size: 16px;
   font-weight: 600;
   line-height: 24px;
 }
-
 header ul {
   width: 72%;
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
 }
-
 .button {
   text-align: center;
   background: rgba(245, 138, 7, 0.1);
   border-radius: 31px;
   padding: 13px 20px;
 }
-
 .button a {
-  font-size: 16px;
   font-weight: 600;
   line-height: 106.5%;
   color: #F58A07;

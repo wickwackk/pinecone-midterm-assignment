@@ -17,10 +17,31 @@ body {
 a{
   text-decoration: none;
   color: #FFFFFF;
+  font-size: 16px;
 }
 
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+h1{
+  font-size: 64px;
+  font-weight: 600;
+}
+h2{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+}
+h3{
+  font-size: 24px;
+  font-weight: 500;
+}
+.orangeButton{
+  font-weight: 600;
+  background-color: #F58A07;
+  border-radius: 27px;
+  padding: 18px 32px;
 }

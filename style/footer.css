@@ -1,0 +1,136 @@
+footer{
+  background: #063255;
+  padding: 80px 0;
+  position: relative;
+}
+footer .container{
+  display: flex;
+  justify-content: space-between;
+}
+.firstRow{
+  width: 33%;
+}
+.firstRow img{
+  width: 18px;
+  height: 18px;
+}
+.firstRow h1{
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+.firstRow h2{
+  font-size: 36px;
+  line-height: 44px;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+.firstRow p{
+  line-height: 24px;
+  margin: 0;
+}
+.footerImg{
+  width: 31%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+.secondRow{
+  display: flex;
+  justify-content: space-between;
+  width: 33%;
+}
+.secondRowFirst{
+  width: 30%;
+}
+.secondRowFirst h3{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.secondRow ul li{
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.secondRowSecond{
+  width: 55%;
+}
+.secondRowSecond h3{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  margin-top: 0;
+  margin-bottom: 26px;
+}
+.secondRowSecond p{
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.fourthRow{
+  width: 26%;
+}
+.fourthRow h3{
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.fourthRow input{
+  width: 100%;
+  border-radius: 31px;
+  padding: 17px 32px;
+  border: none;
+  margin-top: 0;
+  margin-bottom: 33px;
+}
+::placeholder{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Inter";
+  line-height: 19px;
+  color: #9C9C9C;
+}
+.fourthRow a{
+  background: #F58A07;
+  border-radius: 31px;
+  padding: 17px 32px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 106.5%;
+  text-transform: capitalize;
+}
+.fourthRowBottom{
+  display: flex;
+  justify-content: end;
+  justify-content: space-around;
+  margin-top: 104px;
+  margin-bottom: 0;
+}
+.fourthRowBottom p{
+  line-height: 24px;
+}
+.firstBox{
+  height: 144px;
+  width: 53px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #F58A07;
+  border-radius: 0 20px 0 0;
+}
+.secondBox{
+  height: 287px;
+  width: 53px;
+  position: absolute;
+  right: 0;
+  top: 38px;
+  background: #F58A07;
+  border-radius: 20px 0 0 20px;
+}
