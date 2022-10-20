@@ -10,7 +10,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style/global.css">
+  <link rel="stylesheet" href="./style/header.css">
+  <link rel="stylesheet" href="./style/home.css">
   <title>Finsweet</title>
 </head>
 
@@ -165,7 +167,6 @@
   </section>
   <section class="sixth">
     <div class="sixthLeft">
-      <!-- <img src="./images/experience-image.png" alt="experience"> -->
     </div>
     <div class="sixthRight">
       <h2>Energy of a start-up combined with 30 years of experience.</h2>
@@ -233,30 +234,41 @@
     </div>
   </section>
   <footer>
+    <div class="firstBox"></div>
+    <div class="secondBox"></div>
     <div class="container">
       <div class="firstRow">
         <h1>{finsweet</h1>
         <h2>Bespoke software solutions</h2>
-        <div></div>
+        <div class="footerImg">
+          <img src="./images/fb-logo.png" alt="fb">
+          <img src="./images/yt-logo.png" alt="yt">
+          <img src="./images/ig-logo.png" alt="ig">
+          <img src="./images/twt-logo.png" alt="twt">
+        </div>
         <p>© All rights reserved – Finsweet</p>
       </div>
       <div class="secondRow">
-        <h3>Company</h3>
-        <a href="#">About Us</a>
-        <a href="#">Careers</a>
-        <a href="#">Services</a>
-        <a href="#">Blog</a>
-      </div>
-      <div class="thirdRow">
-        <h3>Connect</h3>
-        <p>hi@finsweet.com</p>
-        <p>+(123) 456-7890</p>
+        <div class="secondRowFirst">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="secondRowSecond">
+          <h3>Connect</h3>
+          <p>hi@finsweet.com</p>
+          <p>+(123) 456-7890</p>
+        </div>
       </div>
       <div class="fourthRow">
         <h3>Join Newsletter</h3>
-        <input type="text" name="Type text">
+        <input type="text" id="fname" name="email" placeholder="Type email here">
         <a href="#">Subscribe</a>
-        <div>
+        <div class="fourthRowBottom">
           <p>Privacy Policy</p>
           <p>Terms & Conditions</p>
         </div>
@@ -264,4 +276,5 @@
     </div>
   </footer>
 </body>
+
 </html>
