@@ -35,7 +35,6 @@
 .firstRight .imageBg{
   background: #F58A07;
   height: 100%;
-  width: 29%;
   mix-blend-mode: multiply;
   border-radius: 20px 0 0 20px;
 }
@@ -57,47 +56,80 @@
   mix-blend-mode: multiply;
   border-radius: 20px;
 }
-article .box:nth-child(1){
-  top: 23%;
-  left: 158px;
-}
-article .box:nth-child(2){
-  top: 0;
-  right: 158px;
-}
-.box:nth-child(3){
-  top: 0;
-  left: 158px;
-}
-.box:nth-child(4){
-  top: 0;
-  right: 158px;
-}
-.box:nth-child(5){
-  top: 0;
-  left: 158px;
-}
-.second img{
+.image{
   height: 550px;
   width: 49%;
+  position: relative;
   border-radius: 20px;
+}
+.pic1{
+  background: url(../images/2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pic2{
+  background: url(../images/3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pic3{
+  background: url(../images/4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pic4{
+  background: url(../images/5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pic5{
+  background: url(../images/6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+article:nth-child(odd) .box{
+  left: -48px;
+}
+article:nth-child(even) .box{
+  right: -48px;
+}
+article:first-child .box{
+  top: 23%;
+}
+article:nth-child(2) .box{
+  top: 50%;
+}
+article:nth-child(3) .box{
+  top: 40%;
+}
+article:nth-child(4) .box{
+  top: 50%;
+}
+article:nth-child(5) .box{
+  bottom: 23%;
 }
 .secondText{
   width: 45%;
 }
 .secondText h2{
   color: #0d1317;
+  margin: 0;
 }
 .secondText p{
   font-size: 18px;
   line-height: 30px;
   color: #5B5B5B;
+  margin: 24px 0;
 }
 .secondText ul{
   list-style-type: disc;
-  padding: 15px;
+  padding-left: 15px;
   color: #5B5B5B;
   line-height: 28px;
+}
+.secondText ul li{
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 .third .container{
   display: flex;

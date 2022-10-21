@@ -1,0 +1,144 @@
+.first{
+  margin: 127px 0;
+}
+.first .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.firstLeft{
+  width: 45%;
+}
+.firstLeft h1{
+  line-height: 72px;
+  color: #1D3444;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.firstLeft p{
+  font-size: 18px;
+  line-height: 30px;
+  color: #5B5B5B;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.firstLeft .orangeButton{
+  width: 32%;
+  margin: 0;
+}
+.firstRight{
+  height: 650px;
+  width: 47%;
+  background: url(../images/career.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.firstRight .imageBg{
+  background: #F58A07;
+  height: 100%;
+  width: 29%;
+  mix-blend-mode: multiply;
+  border-radius: 20px 0 0 20px;
+}
+.second{
+  margin-top: 0;
+  margin-bottom: 128px;
+}
+.second h2{
+  color: #0d1317;
+  margin: 0;
+}
+.secondBottom{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-top: 64px;
+  height: 410px;
+}
+.secondBottom div{
+  width: 31%;
+  background: rgba(193, 228, 255, 0.3);
+  border-radius: 20px;
+  padding: 30px 38px;
+}
+.secondBottom div:last-child{
+  background-color: white;
+}
+.secondBottom h3{
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #0d1317;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.secondBottom p{
+  font-size: 18px;
+  line-height: 28px;
+  color: #394149;
+  opacity: 0.6;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+.secondBottom a{
+  color: #F58A07;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19px;
+  margin: 0;
+}
+.third{
+  background: #DCEAF5;
+  padding: 96px 0;
+}
+.third h2{
+  text-transform: capitalize;
+  color: #0d1317;
+  margin-top: 0;
+  margin-bottom: 64px;
+}
+.thirdBottom{
+  display: flex;
+  justify-content: space-between;
+}
+.thirdBottom .thirdSection{
+  background: white;
+  width: 31%;
+  border-radius: 20px;
+}
+.thirdBottom img{
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  margin: 0;
+}
+.thirdBottom .thirdSection div{
+  padding: 32px;
+  width: 100%;
+}
+.thirdBottom h3{
+  line-height: 36px;
+  letter-spacing: -0.03em;
+  color: #0d1317;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.thirdBottom p{
+  line-height: 28px;
+  color: #5B5B5B;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.thirdBottom a{
+  line-height: 106.5%;
+  color: #F58A07;
+  margin: 0;
+}
+.thirdBottom a::after{
+  content: "\2192";
+  color: #F58A07;
+  margin-left: 8px;
+  font-size: 24px;
+}
