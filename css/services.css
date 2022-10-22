@@ -33,6 +33,7 @@
   border-radius: 20px;
 }
 .firstRight .imageBg{
+  width: 25%;
   background: #F58A07;
   height: 100%;
   mix-blend-mode: multiply;
