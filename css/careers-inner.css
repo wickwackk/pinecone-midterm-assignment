@@ -1,0 +1,129 @@
+.first{
+  margin-top: 108px;
+  margin-bottom: 0;
+}
+.first h1{
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  color: #1D3444;
+  margin-top: 0;
+  margin-bottom: 64px;
+}
+.firstTop{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 64px;
+}
+.firstTop h3{
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #0D1317;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.firstTop p{
+  line-height: 30px;
+  font-size: 18px;
+  color: #5B5B5B;
+  margin: 0;
+}
+.jobDesc{
+  width: 50%;
+}
+.salary{
+  width: 28%;
+}
+.firstBottom{
+  display: flex;
+  justify-content: space-between;
+  background: rgba(193, 228, 255, 0.3);
+  border-radius: 20px;
+  padding: 68px 94px 68px 68px;
+}
+.head h3{
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #0D1317;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.head h3:first-child{
+  font-family: "Inter";
+  color: #F58A07;
+  font-weight: 600;
+  line-height: 26px;
+}
+.head{
+  width: 5%;
+}
+.para{
+  width: 75%;
+  line-height: 28px;
+  color: #5B5B5B;
+}
+.para p:first-child{
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.para p:nth-child(2){
+  margin: 0;
+}
+.second{
+  margin: 128px;
+}
+.second h2{
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  color: #0D1317;
+  margin-top: 0;
+  margin-bottom: 51px;
+}
+.inputs{
+  height: 132px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.inputs input{
+  width: 49%;
+  border-radius: 27px;
+  border: none;
+  background: rgba(210, 218, 237, 0.17);
+  padding: 18px 32px;
+}
+::placeholder{
+  font-family: "Inter";
+  line-height: 19px;
+  color: #9C9C9C;
+  font-size: 16px;
+}
+.inputs input:nth-child(3)::placeholder{
+  font-style: italic;
+}
+.longInput{
+  width: 100%;
+  height: 215px;
+  border-radius: 27px;
+  border: none;
+  background: rgba(210, 218, 237, 0.17);
+  padding: 29px 0 167px 32px;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+.submit{
+  padding: 18px 32px;
+  border: none;
+  background: #F58A07;
+  color: white;
+  border-radius: 31px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  text-transform: capitalize;
+  margin: 0;
+}
