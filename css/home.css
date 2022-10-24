@@ -193,6 +193,7 @@
   width: 49%;
 }
 .fourthLeftSideBottom h1{
+  font-family: "Inter";
   font-size: 36px;
   font-weight: 700;
   line-height: 50px;
@@ -229,8 +230,6 @@
 .fifth{
   position: relative;
   padding-top: 15px;
-}
-.fifth .container{
   background: #EDF7FF;
   padding: 48px 42px 48px 48px;
   border-radius: 20px;
@@ -239,8 +238,8 @@
 }
 .fifthCorner{
   position: absolute;
-  right: 190px;
-  top: 0px;
+  right: -15px;
+  top: -15px;
 }
 .fifthTop{
   display: flex;
